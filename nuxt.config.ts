@@ -9,21 +9,19 @@ export default defineNuxtConfig({
         "nuxt3-leaflet",
         "nuxt-mongoose",
         './modules/auth.module',
-        '@nuxtjs/color-mode',
-        "@nuxt/icon"
     ],
     nitro: { preset: 'netlify' },
     //@ts-ignore
-    colorMode: {
-        preference: 'light', // default value of $colorMode.preference
-        fallback: 'light', // fallback value if not system preference found
-        hid: 'nuxt-color-mode-script',
-        globalName: '__NUXT_COLOR_MODE__',
-        componentName: 'ColorScheme',
-        classPrefix: '',
-        classSuffix: '-mode',
-        storageKey: 'nuxt-color-mode',
-    },
+    // colorMode: {
+    //     preference: 'light', // default value of $colorMode.preference
+    //     fallback: 'light', // fallback value if not system preference found
+    //     hid: 'nuxt-color-mode-script',
+    //     globalName: '__NUXT_COLOR_MODE__',
+    //     componentName: 'ColorScheme',
+    //     classPrefix: '',
+    //     classSuffix: '-mode',
+    //     storageKey: 'nuxt-color-mode',
+    // },
     googleFonts: {
         families: {
             Lato: [400, 700, 900] // Add the weights you need
