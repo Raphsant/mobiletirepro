@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
         "@nuxt/icon"
     ],
-    nitro: { preset: 'node' },
+    nitro: { preset: 'netlify-edge' },
     //@ts-ignore
     colorMode: {
         preference: 'light', // default value of $colorMode.preference
