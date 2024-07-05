@@ -10,7 +10,10 @@ export default defineNuxtConfig({
         "nuxt-mongoose",
         './modules/auth.module',
     ],
-    nitro: { preset: 'netlify' },
+    nitro: {
+        preset: 'netlify',
+        logLevel: 1,
+    },
     //@ts-ignore
     // colorMode: {
     //     preference: 'light', // default value of $colorMode.preference
