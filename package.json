@@ -18,7 +18,7 @@
     "nuxt": "^3.12.2",
     "nuxt-mongoose": "^1.0.6",
     "typescript": "^5.4.5",
-    "vue": "^3.4.21",
+    "vue": "latest",
     "vue-router": "^4.3.0",
     "leaflet": "^1.9.4",
     "nuxt3-leaflet": "^1.0.13"
