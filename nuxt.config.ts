@@ -12,6 +12,7 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
         "@nuxt/icon"
     ],
+    nitro: { preset: 'node' },
     //@ts-ignore
     colorMode: {
         preference: 'light', // default value of $colorMode.preference
